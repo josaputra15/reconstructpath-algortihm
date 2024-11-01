@@ -3,7 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
-public class WordPathFinder {
+public class WordTransformer {
 
     public static Set<String> readThreeLetterWords(String filePath) throws IOException {
         Set<String> wordCollectionSet = new HashSet<>();
